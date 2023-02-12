@@ -13,9 +13,9 @@ time.sleep(5)
 
 
 email = driver.find_element(By.NAME,'session_key')
-email.send_keys("rlgus8395@gmail.com")
+email.send_keys("userId")
 password = driver.find_element(By.NAME,'session_password')
-password.send_keys("rkskekfk1!")
+password.send_keys("password")
 password.send_keys(Keys.ENTER)
 
 time.sleep(5)
